@@ -41,6 +41,7 @@ class Project extends Component
     private $_types = array(
         'micro' => '\Phalcon\Builder\Project\Micro',
         'simple' => '\Phalcon\Builder\Project\Simple',
+        'simple2' => '\Phalcon\Builder\Project\Simple2',
         'modules' => '\Phalcon\Builder\Project\Modules',
         'cli' => '\Phalcon\Builder\Project\Cli',
     );
